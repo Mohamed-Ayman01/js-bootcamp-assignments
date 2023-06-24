@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Trebuchet Ms", Arial;
+  background-color: rgb(30, 30, 30);
+  overflow: hidden;
+}
+
+.popup {
+  width: clamp(200px, 500px, 90%);
+  padding: 2rem 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  color: white;
+  background-color: #1a1a1a;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.popup.opened {
+  animation: show-popup 1s ease 0s;
+}
+
+@keyframes show-popup {
+  0% {
+    opacity: 0;
+    transform:rotateZ(-10deg);
+    top: 40%;
+  }
+  100% {
+    opacity: 1;
+    top: 50%;
+  }
+}
+
+.popup.closed {
+  animation: close-popup 1s ease 0s;
+}
+
+@keyframes close-popup {
+  0% {
+    opacity: 1;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 40%;
+    transform:rotateZ(-10deg);
+  }
+}
+
+.popup h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.popup button {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: rgb(207, 0, 0);
+}

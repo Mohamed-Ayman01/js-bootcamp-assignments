@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+form {
+  padding: 1rem;
+  text-align: center;
+  background-color: #ececec
+}
+
+form input[name="dollar"] {
+  padding: .5rem;
+  border: 1px solid #ccc;
+}
+
+form input[name="dollar"]:focus {
+  outline: none;
+  border-color: rgb(57, 232, 57);
+} 
+
+form > * {
+  margin: .5rem;
+}
+
+span {
+  background-color: #ffffff;
+  padding: 4px;
+  border-radius: 4px;
+}

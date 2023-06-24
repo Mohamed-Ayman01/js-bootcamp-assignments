@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "author": "Charles Dickens",
+    "section": "fiction",
+    "title": "random book",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat ullam ut laudantium sapiente reprehenderit libero, natus doloremque eveniet aperiam corporis fugit temporibus impedit cumque inventore sunt velit magnam unde?"
+  },
+  {
+    "id": 1,
+    "author": "Charles Dickens",
+    "section": "fiction",
+    "title": "random book",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat ullam ut laudantium sapiente reprehenderit libero, natus doloremque eveniet aperiam corporis fugit temporibus impedit cumque inventore sunt velit magnam unde?"
+  },
+  {
+    "id": 2,
+    "author": "Charles Dickens",
+    "section": "fiction",
+    "title": "random book",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat ullam ut laudantium sapiente reprehenderit libero, natus doloremque eveniet aperiam corporis fugit temporibus impedit cumque inventore sunt velit magnam unde?"
+  },
+  {
+    "id": 3,
+    "author": "Charles Dickens",
+    "section": "fiction",
+    "title": "random book",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat ullam ut laudantium sapiente reprehenderit libero, natus doloremque eveniet aperiam corporis fugit temporibus impedit cumque inventore sunt velit magnam unde?"
+  }, 
+  {
+    "id": 4,
+    "author": "Charles Dickens",
+    "section": "fiction",
+    "title": "random book",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat ullam ut laudantium sapiente reprehenderit libero, natus doloremque eveniet aperiam corporis fugit temporibus impedit cumque inventore sunt velit magnam unde?"
+  }
+]
